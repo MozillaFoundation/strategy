@@ -1,0 +1,6 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAIPO3ZPOF7CHX3IHA 
+  secret_access_key:
+    secure: YinylmA/SLpJr+JwNayfhlVJR3IUs02cNrIWQeRK1MrHVkOK/PmCYOWLnpXdDVxMen8+XuDYxkXEsbRxvYnnjyuj3xlWe/B561G/JKY1jxwUqLu2epYat7svyXlhryruUcpGG89eQul1jVCrGo6aMzS6sFvvn6QdTbomyrc9318=
+  bucket: mozilla-academy-strategy

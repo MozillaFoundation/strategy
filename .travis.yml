@@ -4,7 +4,6 @@ before_script: gitbook install
 node_js:
 - '0.10'
 script: gitbook build
-sudo: required
 deploy:
   provider: s3
   access_key_id: AKIAIPO3ZPOF7CHX3IHA

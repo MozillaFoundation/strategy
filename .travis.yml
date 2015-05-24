@@ -19,3 +19,5 @@ deploy:
   skip_cleanup: true
   endpoint: mozilla-academy-strategy.s3-website-us-east-1.amazonaws.com
   local_dir: _book
+sudo: required
+

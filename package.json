@@ -4,6 +4,7 @@
   "description": "Welcome to MoFoBook",
   "main": "index.js",
   "scripts": {
+    "travis-after-success": "./node_modules/gitbook/bin/gitbook.js install && ./node_modules/gitbook/bin/gitbook.js build && surge -p _book -d academy-strategy.surge.sh",
     "publish": "surge -p _book -d academy-strategy.surge.sh",
     "build": "./node_modules/gitbook/bin/gitbook.js build",
     "install": "./node_modules/gitbook/bin/gitbook.js install",

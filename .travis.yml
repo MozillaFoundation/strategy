@@ -1,3 +1,4 @@
+sudo: required
 deploy:
   provider: s3
   access_key_id: AKIAIPO3ZPOF7CHX3IHA
@@ -8,4 +9,8 @@ deploy:
   acl: public_read
   on:
     repo: MozillaFoundation/strategy
-sudo: required
+  bucket: mozilla-academy-strategy
+  acl: public_read
+  skip_cleanup: true
+  endpoint: mozilla-academy-strategy.s3-website-us-east-1.amazonaws.com
+  local_dir: _book

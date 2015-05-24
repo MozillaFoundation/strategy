@@ -1,0 +1,23 @@
+{
+  "name": "mofo-strategy",
+  "version": "1.0.0",
+  "description": "Welcome to MoFoBook",
+  "main": "index.js",
+  "scripts": {
+    "publish": "surge -p _book -d academy-strategy.surge.sh",
+    "build": "./node_modules/gitbook/bin/gitbook.js build",
+    "install": "./node_modules/gitbook/bin/gitbook.js install",
+    "test": "echo \"Error: no test needed\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MozillaFoundation/strategy.git"
+  },
+  "author": "",
+  "license": "MPLv2",
+  "bugs": {
+    "url": "https://github.com/MozillaFoundation/strategy/issues"
+  },
+  "homepage": "https://github.com/MozillaFoundation/strategy"
+}
+
